@@ -6,6 +6,8 @@
 XKD_Static_Web 开发文档
 ========================================================
 
+.. image:: _static/gold.jpeg
+
 .. toctree::
    :maxdepth: 2
    :glob:
