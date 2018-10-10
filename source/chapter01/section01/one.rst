@@ -1,5 +1,26 @@
-Python 虚拟环境安装 
-====================
-这一章节包括：
-1：在不同的系统平台上，对Python虚拟环境的安装与配置
-2：对Python解释器和Python的基础语法的介绍
+Python虚拟环境安装
+------------------
+
+   （一）：安装pyenv
+
+::
+
+   yum install git 
+   ....
+
+..
+
+   （二）：安装Python解释器
+
+::
+
+   pyenv install 3.6.3
+   ....
+
+..
+
+   （三）：创建虚拟环境
+
+::
+
+   pyenv virtualenv 3.6.3 xkd

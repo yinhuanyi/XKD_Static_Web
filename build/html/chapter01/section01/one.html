@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>1. Python 虚拟环境安装 &mdash; XKD_Static_Web 0.1 documentation</title>
+  <title>1. Python虚拟环境安装 &mdash; XKD_Static_Web 0.1 documentation</title>
   
 
   
@@ -80,10 +80,13 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../index.html">第一章</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">1. Python 虚拟环境安装</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1. Python虚拟环境安装</a></li>
 <li class="toctree-l2"><a class="reference internal" href="two.html">2. Python 解释器</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../../chapter02/index.html">第二章（Python数据结构）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../chapter03/index.html">第三章(Python 函数)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../chapter04/index.html">第四章（Python 生成器）</a></li>
 </ul>
 
             
@@ -131,7 +134,7 @@
         
           <li><a href="../index.html">第一章</a> &raquo;</li>
         
-      <li>1. Python 虚拟环境安装</li>
+      <li>1. Python虚拟环境安装</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -151,10 +154,24 @@
            <div itemprop="articleBody">
             
   <div class="section" id="python">
-<h1>1. Python 虚拟环境安装<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h1>
-<p>这一章节包括：
-1：在不同的系统平台上，对Python虚拟环境的安装与配置
-2：对Python解释器和Python的基础语法的介绍</p>
+<h1>1. Python虚拟环境安装<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>（一）：安装pyenv</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">yum</span> <span class="n">install</span> <span class="n">git</span>
+<span class="o">....</span>
+</pre></div>
+</div>
+<blockquote>
+<div>（二）：安装Python解释器</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">install</span> <span class="mf">3.6</span><span class="o">.</span><span class="mi">3</span>
+<span class="o">....</span>
+</pre></div>
+</div>
+<blockquote>
+<div>（三）：创建虚拟环境</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="n">virtualenv</span> <span class="mf">3.6</span><span class="o">.</span><span class="mi">3</span> <span class="n">xkd</span>
+</pre></div>
+</div>
 </div>
 
 
