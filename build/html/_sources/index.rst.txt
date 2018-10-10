@@ -8,13 +8,11 @@ XKD_Static_Web 开发文档
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
 
 
+   chapter01/index
+   chapter02/index
+   chapter03/index
+   chapter04/index
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
